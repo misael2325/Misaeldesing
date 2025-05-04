@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #8e8924;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+main {
+    padding: 2rem;
+    margin-bottom: 4rem; /* espacio para el footer fijo */
+}
+.product-gallery {
+    margin-top: 2rem;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+.product-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 45px;
+    transition: box-shadow 0.3s ease;
+}
+.product-box:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.product-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+header nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #007bff;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+header nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #007bff;
+}
+
+
+
